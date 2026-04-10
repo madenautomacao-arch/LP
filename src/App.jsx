@@ -70,8 +70,8 @@ function App() {
           <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-background to-transparent z-10"></div>
           <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-background to-transparent z-10"></div>
           
-          <div className="flex w-max animate-marquee">
-            {[...Array(3)].map((_, i) => (
+          <div className="flex w-max animate-marquee flex-nowrap">
+            {[...Array(2)].map((_, i) => (
               <div key={i} className="flex items-center">
                 {[
                   'automatico-brasil.png',
@@ -82,11 +82,11 @@ function App() {
                   'santos.png',
                   'south.png'
                 ].map((logo, index) => (
-                  <div key={index} className="mx-8 md:mx-14 flex-shrink-0 group flex items-center justify-center">
+                  <div key={index} className="mx-6 md:mx-12 flex-shrink-0 group flex items-center justify-center">
                     <img 
                       src={`/${logo}`} 
                       alt="Parceiro Maden" 
-                      className="h-10 md:h-20 max-w-[180px] md:max-w-[300px] w-auto object-contain transition-all duration-500 group-hover:scale-110"
+                      className="h-10 md:h-12 w-auto object-contain transition-all duration-500 group-hover:scale-110"
                     />
                   </div>
                 ))}
@@ -104,10 +104,15 @@ function App() {
                 <span className="text-primary font-bold text-sm tracking-widest uppercase mb-4 block"><br /></span>
                 <h3 className="font-headline font-bold text-4xl text-white mb-6">Materiais &amp; Automações Gratuitas</h3>
                 <p className="text-on-surface-variant text-lg mb-10 max-w-md">Acesse nossa biblioteca de projetos e frameworks de IA prontos para implementação.</p>
-                <button className="flex items-center gap-3 bg-surface-container-lowest text-white px-6 py-3 rounded-full border border-outline-variant/20 group-hover:border-primary/50 transition-all">
+                <a 
+                  href="https://drive.google.com/drive/folders/1SYSUpkbRnUWJhayowKcxovxyYaKRjjGc?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 bg-surface-container-lowest text-white px-6 py-3 rounded-full border border-outline-variant/20 hover:border-primary/50 transition-all decoration-0"
+                >
                   <span className="material-symbols-outlined text-primary" data-icon="folder_zip">folder_zip</span>
                   <span>Acessar Google Drive</span>
-                </button>
+                </a>
               </div>
               <span className="material-symbols-outlined absolute -right-8 -bottom-8 text-[12rem] text-white/[0.03] group-hover:text-primary/[0.05] transition-all" data-icon="automation">automation</span>
             </div>
