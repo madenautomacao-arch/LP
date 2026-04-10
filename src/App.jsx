@@ -18,9 +18,14 @@ function App() {
             <a className="text-white/70 hover:text-white transition-colors duration-300" href="#">Comercial</a>
             <a className="text-white/70 hover:text-white transition-colors duration-300" href="#">Sistemas</a>
           </div>
-          <button className="bg-primary hover:bg-primary-dim text-on-primary-container px-4 md:px-6 py-2 md:py-2.5 rounded-full font-bold transition-all scale-95 active:scale-90 text-sm md:text-base">
+          <a 
+            href="https://wa.me/5514997742030" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-primary hover:bg-primary-dim text-on-primary-container px-4 md:px-6 py-2 md:py-2.5 rounded-full font-bold transition-all scale-95 active:scale-90 text-sm md:text-base decoration-0"
+          >
             Contate-nos
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -122,10 +127,15 @@ function App() {
                 <span className="text-secondary font-bold text-sm tracking-widest uppercase mb-4 block"><br /></span>
                 <h3 className="font-headline font-bold text-3xl md:text-4xl text-white mb-6">O que Fazemos ?</h3>
                 <p className="text-on-surface-variant text-lg mb-10 max-w-md">Unimos o que realmente traz lucro: Oferta, Tráfego, Automação e Comercial. Criamos a infraestrutura necessária para você faturar mais com menos esforço manual</p>
-                <button className="flex items-center gap-3 bg-secondary text-on-secondary px-6 py-3 rounded-full font-bold transition-all hover:brightness-110">
+                <a 
+                  href="https://wa.me/5514997742030" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 bg-secondary text-on-secondary px-6 py-3 rounded-full font-bold transition-all hover:brightness-110 decoration-0"
+                >
                   <span className="material-symbols-outlined" data-icon="explore">explore</span>
                   <span>Conhecer o método</span>
-                </button>
+                </a>
               </div>
               <span className="material-symbols-outlined absolute -right-8 -bottom-8 text-[12rem] text-white/[0.03] group-hover:text-secondary/[0.05] transition-all" data-icon="neurology">neurology</span>
             </div>
@@ -214,12 +224,17 @@ function App() {
                 Vamos falar sobre o futuro da sua empresa?
               </h2>
               <p className="text-on-surface-variant text-xl mb-12 max-w-2xl mx-auto">
-                Agende uma consultoria estratégica gratuita e descubra o potencial de automação oculto na sua operação atual.
+                agende uma reuniao online para conversarmos sobre o potencial de automacao oculto da sua empresa
               </p>
-              <button className="bg-primary hover:bg-primary-dim text-on-primary-container px-12 py-5 rounded-full font-bold text-xl transition-all shadow-[0_20px_50px_rgba(142,171,255,0.3)] flex items-center gap-4 mx-auto">
+              <a 
+                href="https://wa.me/5514997742030" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-primary hover:bg-primary-dim text-on-primary-container px-12 py-5 rounded-full font-bold text-xl transition-all shadow-[0_20px_50px_rgba(142,171,255,0.3)] flex items-center gap-4 mx-auto w-max decoration-0"
+              >
                 <span className="material-symbols-outlined" data-icon="chat">chat</span>
                 WHATSAPP
-              </button>
+              </a>
             </div>
           </div>
         </section>
