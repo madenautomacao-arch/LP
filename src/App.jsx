@@ -8,7 +8,7 @@ function App() {
         <div className="flex justify-between items-center px-6 md:px-12 py-4 md:py-6 max-w-[1440px] mx-auto font-headline tracking-tight">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl overflow-hidden border border-white/10 glass-panel p-1">
-              <img src="/src/assets/logo.png" alt="Maden Logo" className="w-full h-full object-contain" />
+              <img src="/logo.png" alt="Maden Logo" className="w-full h-full object-contain" />
             </div>
             <span className="text-2xl font-headline font-black tracking-tighter text-white">MADEN</span>
           </div>
@@ -84,7 +84,7 @@ function App() {
                 ].map((logo, index) => (
                   <div key={index} className="mx-8 md:mx-14 flex-shrink-0 group flex items-center justify-center">
                     <img 
-                      src={`/src/assets/${logo}`} 
+                      src={`/${logo}`} 
                       alt="Parceiro Maden" 
                       className="h-10 md:h-20 max-w-[180px] md:max-w-[300px] w-auto object-contain transition-all duration-500 group-hover:scale-110"
                     />
@@ -192,7 +192,7 @@ function App() {
             <img 
               alt="Conceito Iceberg: O que o mercado faz vs O que a Maden faz" 
               className="w-full h-auto rounded-xl filter brightness-110 contrast-105" 
-              src="/src/assets/iceberg.png" 
+              src="/iceberg.png" 
             />
           </div>
           <p className="text-on-surface-variant mt-12 text-center max-w-2xl text-lg italic">
